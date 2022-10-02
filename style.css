@@ -1,0 +1,136 @@
+*{
+    margin:0px; 
+    padding:0px;
+}
+
+body
+{
+    background-color: #3D3D3D;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.content-container,.content-card,.profile
+{
+    width: 1000px;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    border: 1px solid #ff7301;
+    padding: 40px;
+    box-shadow:10px 20px #1e1e1e;
+    /* background: white; */
+}
+
+.content-container div
+{
+    color: gray;
+    font-size: 20px;
+}
+
+.content-container p,.content-card div
+{
+    margin:0 auto;
+    border-radius: 10px;
+    padding: 40px;
+    background-color: rgb(109, 109, 109);
+}
+
+.content-card:hover
+{
+    transition: 1.5s;
+    transform: translate(0,-10px);
+}
+
+.content-card:not(:hover)
+{
+    transition: 1.5s 5s;
+}
+
+h1,div,p
+{
+    margin: 1%;
+}
+
+ol,ul
+{
+    margin-top: 4%;
+    color: white;
+}
+
+li
+{
+    margin-left:10%;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: Oswald;
+    text-decoration: underline;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.content-card,.profile
+{
+    color: white;
+    width: 400px;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.profile
+{
+    width: 200px;
+}
+
+.one
+{
+
+    margin-bottom: 50px;
+}
+
+a
+{
+    color: white;
+}
+
+img
+{
+
+    margin-left:25%;
+    margin-right: 75%;
+    margin-bottom: 50px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+input,button
+{
+    border-radius: 10px;
+    border: 1px solid #ff7301;
+    width: 92%;
+    background-color: black;
+    color: white;
+    padding: 8px;
+}
+
+button
+{
+    background-color: rgb(109, 109, 109);
+    border: 1px solid rgb(109, 109, 109);
+    box-shadow:5px 10px #1e1e1e;
+    width: 100%;
+}
+
+label
+{
+    color: gray;
+}
+
+span
+{
+    color: #ff7301;
+}
